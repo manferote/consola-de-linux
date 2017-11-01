@@ -1,0 +1,506 @@
+Contraer <#>
+<https://www.wikilm.es/?pk_campaign=Centralnotice>En Wiki Loves
+Monuments ahora buscamos completar lo que falta: ¡Fotografía un
+monumento inédito, ayuda a Wikipedia y gana!
+<https://www.wikilm.es/?pk_campaign=Centralnotice>
+
+
+  Comandos Bash
+
+De Wikipedia, la enciclopedia libre
+Saltar a: navegación <#mw-head>, búsqueda <#p-search>
+
+Los *comandos Bash* son conjunto de parámetros utilizados para la
+administración y configuración del sistema, así como un conjunto de
+combinaciones especiales de teclas para realizar tareas específicas en
+entornos Linux/Unix mediante un intérprete de comandos Bash
+<https://es.wikipedia.org/wiki/Bash>.
+
+
+Índice
+
+ [ocultar] 
+
+  * 1 Comandos de ayuda <#Comandos_de_ayuda>
+  * 2 Comandos para archivos y directorios
+    <#Comandos_para_archivos_y_directorios>
+  * 3 Comandos para la gestión de usuarios
+    <#Comandos_para_la_gesti.C3.B3n_de_usuarios>
+  * 4 Comandos para la gestión de procesos
+    <#Comandos_para_la_gesti.C3.B3n_de_procesos>
+  * 5 Comandos para la gestión de discos y dispositivos
+    <#Comandos_para_la_gesti.C3.B3n_de_discos_y_dispositivos>
+  * 6 Comandos para el acceso remoto <#Comandos_para_el_acceso_remoto>
+  * 7 Comandos para apagado y reinicio del sistema
+    <#Comandos_para_apagado_y_reinicio_del_sistema>
+  * 8 Comandos para gestión del sistema
+    <#Comandos_para_gesti.C3.B3n_del_sistema>
+  * 9 Comandos de red <#Comandos_de_red>
+  * 10 Comandos para gestión de impresoras
+    <#Comandos_para_gesti.C3.B3n_de_impresoras>
+  * 11 Combinación especial de teclas <#Combinaci.C3.B3n_especial_de_teclas>
+  * 12 Símbolos <#S.C3.ADmbolos>
+  * 13 Véase también <#V.C3.A9ase_tambi.C3.A9n>
+  * 14 Enlaces externos <#Enlaces_externos>
+
+
+    Comandos de ayuda[editar
+    <https://es.wikipedia.org/w/index.php?title=Comandos_Bash&action=edit&section=1>]
+
+Comando 	Descripción
+*man* 	Muestra el manual del comando que le indiquemos
+*info* 	Provee información del comando indicado
+*help* 	Da una ayuda de los comandos
+*whatis* 	Da una breve descripción de los comandos
+
+
+    Comandos para archivos y directorios[editar
+    <https://es.wikipedia.org/w/index.php?title=Comandos_Bash&action=edit&section=2>]
+
+Comando 	Descripción
+*ls* 	Lista los archivos y directorios
+*sort* 	Ordena alfabéticamente una lista de archivos
+*cd* 	Cambia de directorio
+*pwd* 	Muestra la ruta al directorio actual
+*tree* 	Muestra la estructura de directorios y archivos en forma gráfica
+*mkdir* 	Crea un directorio
+*rmdir* 	Borra directorios (los directorios deben estar vacíos).
+*rm -r* 	Borra directorios (los directorios pueden no estar vacíos)
+*cp* 	Copia archivos
+*rm* 	Borra archivos
+*mv* 	Mueve o renombra archivos y directorios
+*cat* 	Muestra el contenido de uno o varios archivos
+*more* 	Ve el contenido de los archivos página a página
+*less* 	Ve el contenido de los archivos
+*split* 	Dividir archivos
+*find* 	Busca archivos
+*locate* 	Localiza archivos según una lista generada
+*updatedb* 	Actualiza la lista de los archivos existentes
+*whereis* 	Muestra la ubicación de un archivo
+*file* 	Muestra el tipo de archivo
+*whatis* 	Muestra descripción del archivo
+*wc* 	Muestra el total de líneas, palabras o caracteres en un archivo
+*grep* 	Busca un texto en un archivos
+*head* 	Muestra el inicio de un archivo
+*tail* 	Muestra el final de un archivo
+*tailf* 	Muestra el final de un archivo y lo que se añada en el instante
+(logs)
+*tr* 	Reemplaza caracteres en un fichero de texto
+*sed* 	Cambia una cadena de caracteres por otra
+*join* 	Cruza la información de dos archivos y muestra las partes que se
+repiten
+*paste* 	Toma la primera línea de cada archivo y las combina para formar
+una línea de salida
+*uniq* 	Elimina líneas repetidas adyacentes del archivo entrada cuando
+copia al archivo salida
+*cut* 	Sirve para seleccionar columnas de una tabla o campos de cada
+línea de archivo
+*ln* 	Crea enlaces a archivos o carpetas
+*diff* 	Muestra las diferencias entre dos archivos
+*fuser* 	Muestra que usuario tiene en uso o bloqueado un archivo o recurso
+*tar* 	Empaqueta archivos
+*gzip* 	Comprime archivos en formato .gz
+*gunzip* 	Descomprime archivos en formato .gz
+*compress* 	Comprime archivos Z
+*uncompress* 	Descomprime archivos Z
+*chmod* 	Cambia permisos de archivos y directorios
+*chown* 	Cambia de propietario/usuario
+*chgrp* 	Cambia de grupo
+*vi* 	Abre el editor de texto vi
+*nano* 	Abre el editor de texto nano
+*pico* 	Edita un fichero de texto
+
+
+    Comandos para la gestión de usuarios[editar
+    <https://es.wikipedia.org/w/index.php?title=Comandos_Bash&action=edit&section=3>]
+
+Ayuda a tener un manejo de los usuarios para su beneficio
+
+Comando 	Descripción
+*adduser* 	Agrega un nuevo usuario
+*useradd* 	Agrega un nuevo usuario
+*userdel* 	Borra un usuario
+*passwd* 	Permite cambiar la contraseña
+*su* 	Cambia de usuario
+*whoami* 	Muestra el nombre de usuario actual
+*logname* 	Muestra el nombre de usuario
+*id* 	Muestra datos de identificación del usuario
+*finger* 	Da información de usuario
+*chfn* 	Cambia la información propocionada por el comando /finger/
+*who* 	Muestra los usuarios actuales del sistema
+*w* 	Muestra detalles de los usuarios actuales aplicado al comando /who/
+*last* 	Información de los últimos usuarios que han usado el sistema
+*mail* 	Abre la aplicación de correo electrónico
+*pine* 	Lector de correo en modo texto
+*write* 	Manda un mensaje a la pantalla de un usuario
+*mesg* 	Activa o desactiva la función de recepción de mensajes
+*wall* 	Envía mensaje a todos los usuarios
+*talk* 	Establecer una conversación/diálogo con otro usuario
+*banner* 	Saca un diálogo/letrero en la pantalla
+*set* 	Proporciona información sobre el entorno del usuario
+*addgroup* 	Agrega un nuevo grupo
+*groupadd* 	Agrega un nuevo grupo
+*chown* 	Cambia el propietario de un fichero
+
+
+    Comandos para la gestión de procesos[editar
+    <https://es.wikipedia.org/w/index.php?title=Comandos_Bash&action=edit&section=4>]
+
+Comando 	Descripción
+*top* 	Muestra los procesos que se están ejecutando y permite matarlos
+*ps* 	Muestra la lista de procesos del usuario
+*ps aux* 	Muestra la lista de procesos de la máquina
+*kill* 	Envía un evento concreto a un proceso
+*killall* 	Mata un proceso por su nombre
+*time* 	Mide el tiempo que tarda un proceso en ejecutarse
+*fg* 	Trae a primer plano un proceso parado o en segundo plano
+*bg* 	Pone un proceso en segundo plano
+*&* 	Colocado al final de la línea de un comando,lo ejecuta en segundo
+plano
+*nice* 	Ajusta la prioridad de un proceso de -20 a 19
+
+
+    Comandos para la gestión de discos y dispositivos[editar
+    <https://es.wikipedia.org/w/index.php?title=Comandos_Bash&action=edit&section=5>]
+
+Comando 	Descripción
+*mount* 	Monta un disco/dispositivo
+*umount* 	Desmonta un disco/dispositivo
+*df* 	Muestra el espacio libre de los discos/dispositivos
+*du* 	Muestra el espacio usado por el disco/dispositivo o un directorio
+*mkfs* 	Formatea un disco/dispositivo
+*fsck* 	Estado del disco/dispositivo
+*fdisk* 	Abre la aplicación para la gestión de particiones
+
+
+    Comandos para el acceso remoto[editar
+    <https://es.wikipedia.org/w/index.php?title=Comandos_Bash&action=edit&section=6>]
+
+Comando 	Descripción
+*rlogin* 	Se conecta a otra máquina de forma remota (remote login)
+*rsh* 	Se conecta a otra máquina de forma remota (remote shell)
+*ftp* 	Se conecta a otra máquina por el protocolo FTP
+
+
+    Comandos para apagado y reinicio del sistema[editar
+    <https://es.wikipedia.org/w/index.php?title=Comandos_Bash&action=edit&section=7>]
+
+Comando 	Descripción
+*reboot* 	Reinicia la máquina
+*halt* 	Apaga el sistema
+*shutdown* 	Apaga el sistema
+*init 0* 	Apaga la máquina
+*init 6* 	Reinicia la máquina
+
+
+    Comandos para gestión del sistema[editar
+    <https://es.wikipedia.org/w/index.php?title=Comandos_Bash&action=edit&section=8>]
+
+Comando 	Descripción
+*uptime* 	Muestra el tiempo transcurrido de encendido de la máquina
+*exit* 	Cerrar sesión actual
+*logout* 	Salir del sistema
+*nohup* 	Proporciona inmunidad frente a rupturas de comunicación y
+abandonos en ejecución de comandos
+*dmesg* 	Muestra mensajes del arranque de la máquina
+*history* 	Muestra todos los comandos escritos por el usuario
+*uname* 	Proporciona información del sistema operativo
+*tee* 	Copia la entrada estándar a la salida estándar y a un archivo
+*host* 	Muestra la dirección IP del servidor en una red local. Ej: host
+malpelo.univalle.edu.co => 192.168.31.5
+*hostname* 	Muestra el nombre del servidor
+*umask* 	Muestra y permite cambiar la máscara de usuario
+*chroot* 	Cambia la raíz para que root ejecute algo de forma particular
+*chsh* 	Cambia el login shell
+*free* 	Muestra el estado de la memoria
+*date* 	Muestra la fecha y hora actual
+*cal* 	Muestra el calendario
+*clear* 	Borra las líneas de texto escritas en la pantalla/terminal
+*at* 	Ejecuta un comando con un retardo de tiempo especificado
+*env* 	Muestra las variables de entorno
+*export* 	Permite el uso de variables por programas en todos los caminos
+del usuario
+*modprobe* 	Carga un módulo
+*startx* 	Arranca/inicia el servidor X
+<https://es.wikipedia.org/wiki/Servidor_X>
+*xev* 	Muestra los eventos de las teclas y el ratón
+*lspci* 	Muestra los periféricos conectados al puente PCI
+*lsmod* 	Muestra los módulos cargados en el sistema
+*echo* 	Escribe un mensaje en la salida estándar
+*alias* 	Crea un alias
+*unalias* 	Borra un alias
+*bc* 	Muestra la calculadora
+*mc* 	Ejecuta Midnight Commander
+*xkill* 	Mata una ventana gráfica
+*rpm* 	Instala los paquetes RPM de RedHat
+*dpkg* 	Instala los paquetes DEB de Debian
+*kernelcfg* 	Manejo de los módulos cargados en el kernel
+*insmod* 	Inserta módulos en el kernel
+*rmmod* 	Elimina módulos del kernel
+*updatedb* 	Actualiza la base de datos interna de archivos
+*sh* 	Cambia al bash/shell
+*setxkbmap* 	Realiza la función de la tecla AltGr
+<https://es.wikipedia.org/wiki/AltGr> (en modo X)
+
+
+    Comandos de red[editar
+    <https://es.wikipedia.org/w/index.php?title=Comandos_Bash&action=edit&section=9>]
+
+Comando 	Descripción
+*netstat* 	Muestra estado de la red
+*ifconfig* 	Muestra la configuración del dispositivo de red
+*iwconfig* 	Muestra la configuración del dispositivo de red inalámbrico
+*nmap* 	Escanea la red y muestra los puertos que se encuentran
+disponibles. Ej: nmap malpelo.univalle.edu.co/~ahbarome/ => 80/tcp open
+http
+*ping* 	Indica si hay respuesta por parte del servidor
+*nslookup* 	Muestra la IP del servidor DNS conectado(Servidor
+predeterminado: UnKnown Address: 192.168.1.1)
+*telnet* 	Conexión a un equipo/máquina de forma remota
+*netconf* 	Configuración de la red
+*ntop* 	Muestra los procesos de la red
+*route -n* 	Muestra la tabla de rutas de la conexión de red
+*installpkg* 	Instalar en /slackware/
+
+
+    Comandos para gestión de impresoras[editar
+    <https://es.wikipedia.org/w/index.php?title=Comandos_Bash&action=edit&section=10>]
+
+Comando 	Descripción
+*lpq* 	Muestra las colas de impresión
+*lpc* 	Estado de las impresoras
+*lprm* 	Elimina un trabajo de la cola de impresión
+*printtool* 	Configuración de la impresora
+*pr* 	Imprime un archivo
+*jobs* 	Muestra los trabajos que están en una cola de impresión
+
+
+    Combinación especial de teclas[editar
+    <https://es.wikipedia.org/w/index.php?title=Comandos_Bash&action=edit&section=11>]
+
+Comando 	Descripción
+*ctrl+l* 	Borra las líneas de texto de pantalla/terminal
+*ctrl+alt+F1 F2* 	Cambio de consola
+*ctrl+F1 F2* 	Cambio de escritorio
+*ctrl+z* 	Suspensión de un proceso
+*ctrl+d* 	Muestra el final de un archivo EOF
+*ctrl+c* 	Termina/finaliza un proceso en ejecución
+*tab* 	Completa nombres de carpetas o archivos
+*ctrl+backspace* 	Cierra el modo X (sale del sistema X y regresa a la
+consola)
+
+
+    Símbolos[editar
+    <https://es.wikipedia.org/w/index.php?title=Comandos_Bash&action=edit&section=12>]
+
+Comando 	Descripción
+*~* 	Apagar el equipo por otros medios (alt+126)
+*.* 	Ubicación en directorio actual
+*|* 	Redirección de comandos. Pipeline o tubería (alt+124)
+*>* 	Redirecciona la salida estándar (stdout) de un comando (alt+62)
+*2>* 	Redirecciona la salida estándar de errores (stderr) de un comando
+(alt+62)
+*<* 	Redirecciona un comando (alt+60)
+*&* 	Colocado al final de la línea de comando, lo ejecuta en segundo plano
+*&& orden_1 && orden_2* 	Ejecuta la orden_2 si la orden_1 termina
+correctamente (OK)
+*|| orden_1 || orden_2* 	Ejecuta la orden_2 si la orden_1 no termina
+correctamente (OK)
+
+
+    Véase también[editar
+    <https://es.wikipedia.org/w/index.php?title=Comandos_Bash&action=edit&section=13>]
+
+  * Intérprete de comandos Bash <https://es.wikipedia.org/wiki/Bash>
+
+
+    Enlaces externos[editar
+    <https://es.wikipedia.org/w/index.php?title=Comandos_Bash&action=edit&section=14>]
+
+  * Wikimedia Commons <https://es.wikipedia.org/wiki/Wikimedia_Commons>
+    alberga contenido multimedia sobre *Comandos Bash
+    <https://commons.wikimedia.org/wiki/Category:Bash>*. Commons
+    <https://commons.wikimedia.org/wiki/Category:Bash>
+
+Wikilibros
+<https://es.wikibooks.org/wiki/El_Manual_de_BASH_Scripting_B%C3%A1sico_para_Principiantes>
+
+  * Wikilibros <https://es.wikipedia.org/wiki/Wikilibros> alberga un
+    libro o manual sobre *bash
+    <https://es.wikibooks.org/wiki/El_Manual_de_BASH_Scripting_B%C3%A1sico_para_Principiantes>*.
+  * Lista de órdenes <http://www.ss64.com/bash/index.html>
+  * bash home page <http://www.gnu.org/software/bash/bash.html>
+  * bash(1)
+    <http://manpages.ubuntu.com/manpages/oneiric/es/man1/bash.1.html>: GNU
+    Bourne-Again SHell – Comandos generales en el Manual
+    <https://es.wikipedia.org/wiki/Man_(Unix)> de Ubuntu
+    <https://es.wikipedia.org/wiki/Ubuntu>
+
+Guías bash de Linux Documentation Project
+<https://es.wikipedia.org/wiki/TLDP>:
+
+  * Programación bash
+    <http://es.tldp.org/COMO-INSFLUG/COMOs/Bash-Prog-Intro-COMO/Bash-Prog-Intro-COMO.html>
+  * bash Guide for Beginners
+    <http://www.tldp.org/LDP/Bash-Beginners-Guide/html/>
+  * BASH Programming - Introduction HOW-TO
+    <http://www.tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html>
+  * Advanced bash-Scripting Guide <http://www.tldp.org/LDP/abs/html/>
+
+Obtenido de
+«https://es.wikipedia.org/w/index.php?title=Comandos_Bash&oldid=94664965»
+Categorías <https://es.wikipedia.org/wiki/Especial:Categor%C3%ADas>:
+
+  * Proyecto GNU <https://es.wikipedia.org/wiki/Categor%C3%ADa:Proyecto_GNU>
+  * Software para Unix
+    <https://es.wikipedia.org/wiki/Categor%C3%ADa:Software_para_Unix>
+  * Software para Linux
+    <https://es.wikipedia.org/wiki/Categor%C3%ADa:Software_para_Linux>
+
+
+    Menú de navegación
+
+
+Herramientas personales
+
+  * No has iniciado sesión
+  * Discusión <https://es.wikipedia.org/wiki/Especial:MiDiscusi%C3%B3n>
+  * Contribuciones
+    <https://es.wikipedia.org/wiki/Especial:MisContribuciones>
+  * Crear una cuenta
+    <https://es.wikipedia.org/w/index.php?title=Especial:Crear_una_cuenta&returnto=Comandos+Bash>
+  * Acceder
+    <https://es.wikipedia.org/w/index.php?title=Especial:Entrar&returnto=Comandos+Bash>
+
+
+Espacios de nombres
+
+  * Artículo
+
+    <https://es.wikipedia.org/wiki/Comandos_Bash>
+  * Discusión
+
+    <https://es.wikipedia.org/wiki/Discusi%C3%B3n:Comandos_Bash>
+
+
+      Variantes
+
+
+Vistas
+
+  * Leer
+
+    <https://es.wikipedia.org/wiki/Comandos_Bash>
+  * Editar
+
+    <https://es.wikipedia.org/w/index.php?title=Comandos_Bash&action=edit>
+  * Ver historial
+
+    <https://es.wikipedia.org/w/index.php?title=Comandos_Bash&action=history>
+
+
+      Más
+
+
+      Buscar
+
+<https://es.wikipedia.org/wiki/Wikipedia:Portada>
+
+
+Navegación
+
+  * Portada <https://es.wikipedia.org/wiki/Wikipedia:Portada>
+  * Portal de la comunidad <https://es.wikipedia.org/wiki/Portal:Comunidad>
+  * Actualidad <https://es.wikipedia.org/wiki/Portal:Actualidad>
+  * Cambios recientes
+    <https://es.wikipedia.org/wiki/Especial:CambiosRecientes>
+  * Páginas nuevas
+    <https://es.wikipedia.org/wiki/Especial:P%C3%A1ginasNuevas>
+  * Página aleatoria <https://es.wikipedia.org/wiki/Especial:Aleatoria>
+  * Ayuda <https://es.wikipedia.org/wiki/Ayuda:Contenidos>
+  * Donaciones
+    <https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&utm_medium=sidebar&utm_campaign=C13_es.wikipedia.org&uselang=es>
+  * Notificar un error
+    <https://es.wikipedia.org/wiki/Wikipedia:Informes_de_error>
+
+
+      Imprimir/exportar
+
+  * Crear un libro
+    <https://es.wikipedia.org/w/index.php?title=Especial:Libro&bookcmd=book_creator&referer=Comandos+Bash>
+  * Descargar como PDF
+    <https://es.wikipedia.org/w/index.php?title=Especial:ElectronPdf&page=Comandos+Bash&action=show-selection-screen&coll-download-url=%2Fw%2Findex.php%3Ftitle%3DEspecial%3ALibro%26bookcmd%3Drender_article%26arttitle%3DComandos%2BBash%26returnto%3DComandos%2BBash%26oldid%3D94664965%26writer%3Drdf2latex>
+  * Versión para imprimir
+    <https://es.wikipedia.org/w/index.php?title=Comandos_Bash&printable=yes>
+
+
+      En otros proyectos
+
+  * Wikimedia Commons <https://commons.wikimedia.org/wiki/Category:GNU_Bash>
+
+
+      Herramientas
+
+  * Lo que enlaza aquí
+    <https://es.wikipedia.org/wiki/Especial:LoQueEnlazaAqu%C3%AD/Comandos_Bash>
+  * Cambios en enlazadas
+    <https://es.wikipedia.org/wiki/Especial:CambiosEnEnlazadas/Comandos_Bash>
+  * Subir archivo
+    <https://commons.wikimedia.org/wiki/Special:UploadWizard?uselang=es>
+  * Páginas especiales
+    <https://es.wikipedia.org/wiki/Especial:P%C3%A1ginasEspeciales>
+  * Enlace permanente
+    <https://es.wikipedia.org/w/index.php?title=Comandos_Bash&oldid=94664965>
+  * Información de la página
+    <https://es.wikipedia.org/w/index.php?title=Comandos_Bash&action=info>
+  * Elemento de Wikidata
+    <https://www.wikidata.org/wiki/Special:EntityPage/Q3822662>
+  * Citar esta página
+    <https://es.wikipedia.org/w/index.php?title=Especial:Citar&page=Comandos_Bash&id=94664965>
+
+
+      Otros proyectos
+
+  * Commons <https://commons.wikimedia.org/wiki/Category:Bash>
+  * Wikilibros
+    <https://es.wikibooks.org/wiki/El_Manual_de_BASH_Scripting_B%C3%A1sico_para_Principiantes>
+
+
+      En otros idiomas
+
+  * Català
+    <https://ca.wikipedia.org/wiki/Int%C3%A8rpret_d%27ordres_en_Linux>
+  * Euskara <https://eu.wikipedia.org/wiki/Linux_oinarrizko_komandoak>
+
+Editar enlaces
+<https://www.wikidata.org/wiki/Special:EntityPage/Q3822662#sitelinks-wikipedia>
+
+  * Se editó esta página por última vez el 30 oct 2016 a las 09:30.
+  * El texto está disponible bajo la Licencia Creative Commons
+    Atribución Compartir Igual 3.0
+    <https://es.wikipedia.org/wiki/Wikipedia:Texto_de_la_Licencia_Creative_Commons_Atribuci%C3%B3n-CompartirIgual_3.0_Unported><http://creativecommons.org/licenses/by-sa/3.0/>;
+    pueden aplicarse cláusulas adicionales. Al usar este sitio, usted
+    acepta nuestros términos de uso
+    <https://wikimediafoundation.org/wiki/Terms_of_Use> y nuestra
+    política de privacidad
+    <https://wikimediafoundation.org/wiki/Privacy_policy>.
+    Wikipedia® es una marca registrada de la Fundación Wikimedia, Inc.
+    <https://www.wikimediafoundation.org/>, una organización sin ánimo
+    de lucro.
+
+  * Normativa de privacidad
+    <https://meta.wikimedia.org/wiki/Privacy_policy/es>
+  * Acerca de Wikipedia <https://es.wikipedia.org/wiki/Wikipedia:Acerca_de>
+  * Limitación de responsabilidad
+    <https://es.wikipedia.org/wiki/Wikipedia:Limitaci%C3%B3n_general_de_responsabilidad>
+  * Desarrolladores
+    <https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute>
+  * Declaración de cookies
+    <https://wikimediafoundation.org/wiki/Cookie_statement/es>
+  * Versión para móviles
+    <https://es.m.wikipedia.org/w/index.php?title=Comandos_Bash&mobileaction=toggle_view_mobile>
+  * Activar previsualizaciones <#>
+
+  * Wikimedia Foundation <https://wikimediafoundation.org/>	
+  * Powered by MediaWiki <https://www.mediawiki.org/>	
+
